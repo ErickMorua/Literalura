@@ -47,15 +47,28 @@ PostgreSQL Driver
 Jackson
 Configuración de la Base de Datos
 La configuración de la base de datos PostgreSQL se encuentra en el archivo application.properties:
+
+```java
 spring.datasource.url=jdbc:postgresql://localhost:5432/literalura
 spring.datasource.username=usuario
 spring.datasource.password=contraseña
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+```
+
+## Ejecución de la Aplicación
+Para ejecutar la aplicación, sigue estos pasos:
+
+Clona el repositorio del proyecto.
+Configura la base de datos PostgreSQL con las credenciales adecuadas en application.properties.
+Ejecuta el proyecto utilizando tu IDE preferido o desde la línea de comandos con ./mvnw spring-boot:run.
+
 ## Ejemplo de Uso
 Buscar Libro por Título
 Cuando se selecciona la opción "1" del menú, el usuario debe ingresar el título del libro. La aplicación buscará en la base de datos y mostrará la información del libro si se encuentra registrado.
 
 Listar Libros Registrados
 Al seleccionar la opción "2", la aplicación mostrará todos los libros registrados en la base de datos, mostrando detalles como el título, autor y número de descargas.
+
+
