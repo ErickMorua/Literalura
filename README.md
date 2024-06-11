@@ -49,7 +49,7 @@ Configuración de la Base de Datos
 La configuración de la base de datos PostgreSQL se encuentra en el archivo application.properties:
 
 ```java
-spring.datasource.url=jdbc:postgresql://localhost:5432/literalura
+spring.datasource.url=jdbc:postgresql://${DB_HOST}/literalura
 spring.datasource.username=usuario
 spring.datasource.password=contraseña
 spring.jpa.hibernate.ddl-auto=update
