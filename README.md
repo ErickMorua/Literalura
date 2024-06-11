@@ -16,28 +16,28 @@ El menú principal de la aplicación ofrece las siguientes opciones:
     6. Top 10 Libros
     0. salir
 
-##1. Buscar libro por título
+## 1. Buscar libro por título
 Permite buscar un libro en la base de datos utilizando su título. Si el libro se encuentra, muestra sus detalles, incluyendo el autor, idioma y número de descargas.
 
-##2. Listar libros registrados
+## 2. Listar libros registrados
 Muestra una lista de todos los libros que han sido registrados en la base de datos.
 
-##3. Listar autores registrados
+## 3. Listar autores registrados
 Muestra una lista de todos los autores registrados en la base de datos.
 
-##4. Listar autores vivos en un determinado año
+## 4. Listar autores vivos en un determinado año
 Permite listar los autores que estaban vivos en un año específico proporcionado por el usuario.
 
-##5. Listar libros por idioma
+## 5. Listar libros por idioma
 Muestra una lista de libros filtrada por el idioma especificado.
 
-##6. Top 10 Libros
+## 6. Top 10 Libros
 Muestra una lista de los 10 libros más descargados.
 
-##0. Salir
+## 0. Salir
 Termina la ejecución de la aplicación.
 
-##Configuración del Proyecto
+## Configuración del Proyecto
 Dependencias
 La aplicación utiliza las siguientes dependencias principales:
 
@@ -53,7 +53,7 @@ spring.datasource.password=contraseña
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
-##Ejemplo de Uso
+## Ejemplo de Uso
 Buscar Libro por Título
 Cuando se selecciona la opción "1" del menú, el usuario debe ingresar el título del libro. La aplicación buscará en la base de datos y mostrará la información del libro si se encuentra registrado.
 
